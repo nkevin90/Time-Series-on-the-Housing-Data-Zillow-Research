@@ -1,5 +1,5 @@
 # Time-Series-on-the-Housing-Data-Zillow-Research
-![image](https://user-images.githubusercontent.com/116062465/225610397-429d89cb-2e0f-4c22-9621-199c97f3cac9.png))
+![image](https://user-images.githubusercontent.com/116062465/225610397-429d89cb-2e0f-4c22-9621-199c97f3cac9.png)
 
 ## 1.Introduction
 Real estate investments can provide both short-term and long-term returns through rental income, property appreciation, and value-added investments such as renovations and developments.Real estate represents a significant portion of most people's wealth, and this is especially true for many homeowners in the United States. A number of factors drive the real estate market including government policies, demographics of the potential buyers,affordability, disparity in housing access, location, cash flows and liquidity as well as the current economic climate. 
@@ -55,19 +55,26 @@ Monthly returns of each zipcode
 A Dicky-fuller test was performed to test for stationarity
 
 ## 5.Modelling
-For this project  a SARIMA model was used  with time series data to forecast the next 10 years of ROI for 5 zip codes to help real estate investors know which zip codes were best to invest in.
+For this project  auto arima was used to find the best p,d,q for the model then we did fit the ARIMA model on the training series.
+![image](https://user-images.githubusercontent.com/116062465/225679615-c793d72e-50f4-468e-871c-9293da3b4fec.png)  ![image](https://user-images.githubusercontent.com/116062465/225679741-11168620-8227-4db6-87b2-3f39bc710639.png)
+![image](https://user-images.githubusercontent.com/116062465/225679856-eb3fb786-c662-4ac2-b8fa-2d5501d2d477.png)  ![image](https://user-images.githubusercontent.com/116062465/225679977-57010146-5b19-48b3-b00d-350dd225439b.png)
+The qq- plot on the bottom left showed that the residuals followed a linear trend line hence  normally distributed.The correlogram plot on the bottom left showed there were low correlations with their lagged version. There wasn't seasonality in our series.The histogram had a bell curve showing that the residuals are normally distributed which was a good thing.
+
+
 
 
 
 
 ## 6.CONCLUSIONS 
-
+![image](https://user-images.githubusercontent.com/116062465/225683454-ff8f9bef-8bf6-4593-bc5b-b38dcc3b0658.png)
+- The Highest Growing Zipcode: 2 is expected to grow by 57.31%
+- All the Zipcodes have an encouraging predicted price seeing as they are in the positive.
 - 
-## 6.RECOMMENDATIONS
--
+## 7.RECOMMENDATIONS
+- The investor can then decide to invest in any of the top 5 zipcodes that have the highest ROI Forecast.
 
-## 7.REPOSITORY GUIDE
-- The data set used can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/Car%20details%20v3.csv)
+## 8.REPOSITORY GUIDE
+- The data set used can be found [here](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/tree/main/time-series)
 - The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
-- The notebook can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/index.ipynb)
+- The notebook can be found [here](https://github.com/nkevin90/Time-Series-on-the-Housing-Data-Zillow-Research/blob/main/index.ipynb)
 - The Presentation Slides can be found [here](https://www.canva.com/design/DAFXiNjCN-o/oBZXk_wvi-jTLk2v5q-sKw/view?utm_content=DAFXiNjCN-o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
