@@ -1,5 +1,5 @@
 # Time-Series-on-the-Housing-Data-Zillow-Research
-![image](https://user-images.githubusercontent.com/116062465/225590605-98f8e9bc-83dd-41c5-9590-bdba7f2e9056.png)
+![image](https://user-images.githubusercontent.com/116062465/225610397-429d89cb-2e0f-4c22-9621-199c97f3cac9.png))
 
 ## 1.Introduction
 Real estate investments can provide both short-term and long-term returns through rental income, property appreciation, and value-added investments such as renovations and developments.Real estate represents a significant portion of most people's wealth, and this is especially true for many homeowners in the United States. A number of factors drive the real estate market including government policies, demographics of the potential buyers,affordability, disparity in housing access, location, cash flows and liquidity as well as the current economic climate. 
