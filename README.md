@@ -26,7 +26,7 @@ The python notebook is structured as follows:
 The data used in this project was downloaded from [Github](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/tree/main/time-series) 
 The data provided came from the researchers at Zillow and consisted of 14,723 rows. The dataset included a small series of categorical features and a large number of columns, each of which contained the median value of homes in a zipcode for a certain month. The months ranged from April 1996 to April 2018.These were some of the features:
 - RegionID: ID
-I initially was not sure if this column was a zip code or an ID but after a cursory search It was discovered that 84654 is from Utah and not Chicago, 
+I initially was not sure if this column was a zip code or an ID  
 - RegionName: This was the column for zip codes.60657 is a Chicago ZipCode
 - City
 - State
