@@ -63,7 +63,7 @@ For this project  auto arima was used to find the best p,d,q for the model then 
 The qq- plot on the bottom left showed that the residuals followed a linear trend line hence  normally distributed.The correlogram plot on the bottom left showed there were low correlations with their lagged version. There wasn't seasonality in our series.The histogram had a bell curve showing that the residuals are normally distributed which was a good thing.
 
 ## 6.CONCLUSIONS 
-![image](https://user-images.githubusercontent.com/116062465/225685139-4a013053-984c-4f88-92f5-42d7039683c6.png)
+![image](https://user-images.githubusercontent.com/116062465/225711356-0ecfd169-e3fe-4fd6-b4b0-d066b82b4d0d.png)
 - The Highest Growing Zipcode: 2 is expected to grow by 57.31%
 - All the Zipcodes have an encouraging predicted price seeing as they are in the positive.
 - 
