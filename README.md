@@ -41,17 +41,19 @@ The data was checked for missing values and some columns were found to have null
 ### Exploratory Data Analysis
 By carrying out EDA , various patterns were discovered.
 We found the most popular state,city and average Profit Margin per State
-![image](![image](https://user-images.githubusercontent.com/116062465/225603513-3a79eb45-74d3-447d-910e-832ee93c1a99.png))
-![image](https://user-images.githubusercontent.com/116062465/225603647-bb7fc5e5-77eb-4349-928c-67602a4b785a.png)  
-![image](https://user-images.githubusercontent.com/116062465/225604010-05e11d35-7a1d-49af-8d32-efabc52e1966.png)
-
+![image](https://user-images.githubusercontent.com/116062465/225703861-6af4f9f9-9285-4fab-adc9-d8e581ffd6c1.png)
+![image](https://user-images.githubusercontent.com/116062465/225704174-7d5f9f11-d987-47ee-aed6-a7772db8c25c.png)
+Mean %ROI by Zipcode  
+![image](https://user-images.githubusercontent.com/116062465/225704385-d62599fe-d0d8-49ef-a1cf-bf258e90dd94.png)
+House value  
+![image](https://user-images.githubusercontent.com/116062465/225708965-3afa9145-b971-445d-b30f-3b90b9602f60.png)
 
 ### Data Preprocessing
 During EDA, we noticed that the dataset as provided by Zillow comes in "wide format" and for our time series models to run, we had to convert it to "long format". Luckily a function to do this was provided to us along with the dataset. We filtered the top 5 zipcodes based on %ROI and grouped data by date and zipcode, and calculate the mean price for each group selecting from 2012.
 Plotting home prices by zipcodes
 ![image](https://user-images.githubusercontent.com/116062465/225606702-55f4ebe6-151f-4af6-9e9e-d91544a888cd.png)
 Monthly returns of each zipcode
-![image](https://user-images.githubusercontent.com/116062465/225606904-d54a3737-3e5a-4c86-8026-b8f54017c1ec.png)
+![image](https://user-images.githubusercontent.com/116062465/225606904-d54a3737-3e5a-4c86-8026-b8f54017c1ec.png)  
 A Dicky-fuller test was performed to test for stationarity
 
 ## 5.Modelling
@@ -72,4 +74,4 @@ The qq- plot on the bottom left showed that the residuals followed a linear tren
 - The data set used can be found [here](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/tree/main/time-series)
 - The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
 - The notebook can be found [here](https://github.com/nkevin90/Time-Series-on-the-Housing-Data-Zillow-Research/blob/main/index.ipynb)
-- The Presentation Slides can be found [here](https://www.canva.com/design/DAFXiNjCN-o/oBZXk_wvi-jTLk2v5q-sKw/view?utm_content=DAFXiNjCN-o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- The Presentation Slides can be found [here](https://www.canva.com/design/DAFdMH34Hbo/f9KjfY-RSlMXAnzjBnluGg/edit?utm_content=DAFdMH34Hbo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
