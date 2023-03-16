@@ -65,13 +65,13 @@ The qq- plot on the bottom left showed that the residuals followed a linear tren
 ## 6.CONCLUSIONS 
 ![image](https://user-images.githubusercontent.com/116062465/225711356-0ecfd169-e3fe-4fd6-b4b0-d066b82b4d0d.png)
 - The Highest Growing Zipcode: 2 is expected to grow by 57.31%
-- All the Zipcodes have an encouraging predicted price seeing as they are in the positive.
+- All the Zipcodes have an encouraging predicted price seeing as they are in the positive apart from the 85035 zipcode 
 - 
 ## 7.RECOMMENDATIONS
 - The investor can then decide to invest in any of the top 5 zipcodes that have the highest ROI Forecast.
 
 ## 8.REPOSITORY GUIDE
 - The data set used can be found [here](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/tree/main/time-series)
-- The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
+- The data report can be found [here](https://docs.google.com/document/d/1SwijdmULcyr92pvaWKuVQyIZFxTCL23Jb0qcMRnpK_E/edit)
 - The notebook can be found [here](https://github.com/nkevin90/Time-Series-on-the-Housing-Data-Zillow-Research/blob/main/index.ipynb)
 - The Presentation Slides can be found [here](https://www.canva.com/design/DAFdMH34Hbo/f9KjfY-RSlMXAnzjBnluGg/edit?utm_content=DAFdMH34Hbo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
