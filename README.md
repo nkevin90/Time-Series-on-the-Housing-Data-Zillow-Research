@@ -56,17 +56,12 @@ A Dicky-fuller test was performed to test for stationarity
 
 ## 5.Modelling
 For this project  auto arima was used to find the best p,d,q for the model then we did fit the ARIMA model on the training series.
-![image](https://user-images.githubusercontent.com/116062465/225679615-c793d72e-50f4-468e-871c-9293da3b4fec.png)  ![image](https://user-images.githubusercontent.com/116062465/225679741-11168620-8227-4db6-87b2-3f39bc710639.png)
-![image](https://user-images.githubusercontent.com/116062465/225679856-eb3fb786-c662-4ac2-b8fa-2d5501d2d477.png)  ![image](https://user-images.githubusercontent.com/116062465/225679977-57010146-5b19-48b3-b00d-350dd225439b.png)
+![image](https://user-images.githubusercontent.com/116062465/225685554-b62cea0f-2ab3-4856-a43d-b8631bc864fc.png)
+![image](https://user-images.githubusercontent.com/116062465/225685818-bd1483f8-72c4-4be8-870f-d6cedd59579b.png)  
 The qq- plot on the bottom left showed that the residuals followed a linear trend line hence  normally distributed.The correlogram plot on the bottom left showed there were low correlations with their lagged version. There wasn't seasonality in our series.The histogram had a bell curve showing that the residuals are normally distributed which was a good thing.
 
-
-
-
-
-
 ## 6.CONCLUSIONS 
-![image](https://user-images.githubusercontent.com/116062465/225683454-ff8f9bef-8bf6-4593-bc5b-b38dcc3b0658.png)
+![image](![image](https://user-images.githubusercontent.com/116062465/225685139-4a013053-984c-4f88-92f5-42d7039683c6.png)
 - The Highest Growing Zipcode: 2 is expected to grow by 57.31%
 - All the Zipcodes have an encouraging predicted price seeing as they are in the positive.
 - 
