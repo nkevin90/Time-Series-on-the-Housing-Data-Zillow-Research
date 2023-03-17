@@ -1,4 +1,4 @@
-# Predictive Time Series Model for Real Estate Investment using Zillow Research Data
+# Predictive Time Series Modelling for Real Estate Investment using Zillow Research Data
 ![image](https://github.com/nkevin90/Time-Series-on-the-Housing-Data-Zillow-Research/blob/main/cover.png)
 
 This repository contains the code and analysis for developing a predictive time series model for real estate investment using Zillow research data. The project's goal is to provide Naruto Investment firm with solid recommendations for the top 5 best zip codes to invest in.
